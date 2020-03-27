@@ -2,7 +2,7 @@ import json
 from ibm_watson import SpeechToTextV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
-authenticator = IAMAuthenticator('GSZigR8n5YLzV3CH3-rOtIBnmHJti0ER7dhE_QQzXjYC')
+authenticator = IAMAuthenticator('')
 service = SpeechToTextV1(authenticator=authenticator)
 service.set_service_url('https://stream.watsonplatform.net/speech-to-text/api')
 
